@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MedTrack</title>
+    <script>
+      // GitHub Pages 404 redirect fix for React Router
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      var redirect = path + search + hash;
+      sessionStorage.setItem("redirect", redirect);
+      window.location.replace("/MedTrack/");
+    </script>
+  </head>
+  <body></body>
+</html>
