@@ -9,6 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <script>
+      // GitHub Pages redirect fix
+      var redirect = sessionStorage.getItem("redirect");
+      if (redirect && redirect !== window.location.pathname) {
+        sessionStorage.removeItem("redirect");
+        history.replaceState(null, null, redirect);
+      }
+    </script>
     <script type="module" crossorigin src="/MedTrack/assets/index-Cp9QBdpo.js"></script>
     <link rel="stylesheet" crossorigin href="/MedTrack/assets/index-DroWAzSr.css">
   </head>
