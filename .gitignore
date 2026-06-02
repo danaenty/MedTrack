@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables — NEVER commit this
+.env
+.env.local
+.env.production
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Note: dist/ is NOT ignored here because we push it to gh-pages branch
+# using the gh-pages package. It never touches your main branch.
