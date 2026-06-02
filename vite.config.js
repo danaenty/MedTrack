@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // Replace "medtrack" with your exact GitHub repository name
-  base: "/medtrack/",
+  base: "/MedTrack/",
 });
