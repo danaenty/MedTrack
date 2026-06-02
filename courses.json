@@ -1,0 +1,97 @@
+[
+  {
+    "id": "histopathology",
+    "name": "Histopathology",
+    "icon": "🔬",
+    "color": "#1e3a5f",
+    "topics": [
+      {
+        "id": "histo-001",
+        "title": "Cell Injury & Death",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      },
+      {
+        "id": "histo-002",
+        "title": "Inflammation & Repair",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      },
+      {
+        "id": "histo-003",
+        "title": "Neoplasia",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      }
+    ]
+  },
+  {
+    "id": "chemical-pathology",
+    "name": "Chemical Pathology",
+    "icon": "⚗️",
+    "color": "#164e63",
+    "topics": [
+      {
+        "id": "chem-001",
+        "title": "Acid-Base Disorders",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      },
+      {
+        "id": "chem-002",
+        "title": "Electrolyte Imbalances",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      }
+    ]
+  },
+  {
+    "id": "microbiology",
+    "name": "Microbiology",
+    "icon": "🦠",
+    "color": "#14532d",
+    "topics": [
+      {
+        "id": "micro-001",
+        "title": "Bacteriology Overview",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      },
+      {
+        "id": "micro-002",
+        "title": "Virology",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      }
+    ]
+  },
+  {
+    "id": "haematology",
+    "name": "Haematology",
+    "icon": "🩸",
+    "color": "#7f1d1d",
+    "topics": [
+      {
+        "id": "haem-001",
+        "title": "Anaemias",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      },
+      {
+        "id": "haem-002",
+        "title": "Haemostasis & Coagulation",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      }
+    ]
+  },
+  {
+    "id": "pharmacology",
+    "name": "Pharmacology",
+    "icon": "💊",
+    "color": "#312e81",
+    "topics": [
+      {
+        "id": "pharm-001",
+        "title": "Pharmacokinetics",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      },
+      {
+        "id": "pharm-002",
+        "title": "Pharmacodynamics",
+        "slideUrl": "https://drive.google.com/file/d/YOUR_FILE_ID/preview"
+      }
+    ]
+  }
+]
